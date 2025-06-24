@@ -83,9 +83,15 @@ Un ZIP All ZIP files [IMPORTANT]
    - Create a MySQL database.
    - Import `database.sql` using phpMyAdmin or CLI.
 
-5. Configure your settings:
-   - Edit `config.php` for database credentials.
-   - Update `mail_config.php` for SMTP settings.
+5.  🔧 User Configuration
+
+Make sure to update the following files before running the project:
+
+- `config.php`: Set your database host, username, password, and database name.
+- `mail_config.php`: Enter your SMTP credentials for email functionality.
+- `database.sql`: Import this file into your MySQL server to initialize the database.
+- `includes/navbar.php` & `footer.php`: Customize branding and links.
+
 
 6. Host the project on your local server (XAMPP/WAMP) and visit:
    ```
