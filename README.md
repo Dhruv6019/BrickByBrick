@@ -53,6 +53,8 @@ BrickByBrick/
 
 ## 🚀 Getting Started
 
+Un ZIP All ZIP files [IMPORTANT]
+
 ### Prerequisites
 
 - PHP 7.x or above
