@@ -1,17 +1,17 @@
 <?php
 $servername = "localhost";
-$username = "root";
+$username = "";
 $password = "";
-$dbname = "newreal";
+$dbname = "";
 
 // Set timezone for MySQL connection
-date_default_timezone_set('Asia/Kolkata');
+date_default_timezone_set('');
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Set timezone for MySQL session
-$conn->query("SET time_zone = '+05:30'");
+$conn->query("");
 
 // Check connection
 if ($conn->connect_error) {
