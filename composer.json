@@ -1,0 +1,21 @@
+{
+    "name": "dhruvteli/estate",
+    "description": "A simple PHP project for sending emails using PHPMailer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dhruvteli\\Estate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dhruv Teli",
+            "email": "dhruvteli6019@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
